@@ -1,96 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Foods</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    </head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foods</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar target-selector">
+			<a href="#" class="navbar-link">
+				<i class="fas fa-home"></i>
+				<span>Home</span>
+			</a>
+			<a href="#" class="navbar-link">
+				<i class="fas fa-utensils"></i>
+				<span>Meals</span>
+			</a>
+			<a href="#" class="navbar-link">
+				<i class="fas fa-hamburger"></i>
+				<span>Burger</span>
+			</a>
+			<a href="#" class="navbar-link">
+				<i class="fas fa-pizza-slice"></i>
+				<span>Pizza</span>
+			</a>
+			<a href="#" class="navbar-link">
+				<i class="fas fa-blender-phone"></i>
+				<span>Contact</span>
+			</a>
+		</nav>
 
+		<div class="menu target-selector"></div>
 
-<!-- Navbar -->
-<nav class="navbar target-selector">
-    <a href="#" class="navbar-link">
-        <i class="fas fa-home"></i>
-        <span>Home</span>
-    </a>
-    <a href="#" class="navbar-link">
-        <i class="fas fa-utensils"></i>
-        <span>Meals</span>
-    </a>
-    <a href="#" class="navbar-link">
-        <i class="fas fa-hamburger"></i>
-        <span>Burger</span>
-    </a>
-    <a href="#" class="navbar-link">
-        <i class="fas fa-pizza-slice"></i>
-        <span>Pizza</span>
-    </a>
-    <a href="#" class="navbar-link">
-        <i class="fas fa-blender-phone"></i>
-        <span>Contact</span>
-    </a>
-              
-</nav>
+		<!-- End Navbar -->
 
-<div class="menu target-selector"></div>
+		<div class="container">
+			<!--Section 1-->
+			<section class="section-1">
+				<h1 class="section-heading">Variety of Foods</h1>
+				<div class="section-1-icons">
+					<i class="fas fa-egg change"></i>
+					<i class="fas fa-stroopwafel"></i>
+					<i class="fas fa-cheese"></i>
+					<i class="fas fa-hotdog"></i>
+					<i class="fas fa-drumstick-bite"></i>
+					<i class="fas fa-apple-alt"></i>
+					<i class="fas fa-ice-cream"></i>
+					<i class="fas fa-fish"></i>
+					<i class="fas fa-cookie"></i>
+					<i class="fas fa-seedling"></i>
+				</div>
+			</section>
+			<!--End Section 1 -->
+			<!--Section 2-->
+			<section class="section-2">
+				<h1 class="section-heading">Popular Meals</h1>
+				<card class="card-container">
+					<div class="card">
+						<img src="images/card-img-1.png" alt="Fish" class="card-img" />
+						<h3 class="card-name">Fish</h3>
+						<button class="card-btn">Order Now</button>
+					</div>
 
-<!-- End Navbar -->
+					<div class="card">
+						<img src="images/card-img-2.png" alt="Cake" class="card-img" />
+						<h3 class="card-name">Cake</h3>
+						<button class="card-btn">Order Now</button>
+					</div>
 
-<div class="container"> 
-            <!--Section 1-->
-            <section class="section-1">
-                <h1 class="section-heading">
-                    Variety of Foods
-                </h1>
-                <div class="section-1-icons">
-                    <i class="fas fa-egg change"></i>
-                    <i class="fas fa-stroopwafel"></i>
-                    <i class="fas fa-cheese"></i>
-                    <i class="fas fa-hotdog"></i>
-                    <i class="fas fa-drumstick-bite"></i>
-                    <i class="fas fa-apple-alt"></i>
-                    <i class="fas fa-ice-cream"></i>
-                    <i class="fas fa-fish"></i>
-                    <i class="fas fa-cookie"></i>
-                    <i class="fas fa-seedling"></i>
-                </div>
-            </section>
-        <!--End Section 1 -->
-                <!--Section 2-->
-                <section class="section-2">
-                    <h1 class="section-heading">
-                        Popular Meals
-                    </h1>
-                    <card class="card-container">
-                        <div class="card">
-                            <img src="images/card-img-1.png" alt="Fish" class="card-img">
-                            <h3 class="card-name">Fish</h3>
-                            <button class="card-btn">Order Now</button>
-                        </div>
-    
-                        <div class="card">
-                            <img src="images/card-img-2.png" alt="Cake" class="card-img">
-                            <h3 class="card-name">Cake</h3>
-                            <button class="card-btn">Order Now</button>
-                        </div>
-    
-                        <div class="card">
-                            <img src="images/card-img-3.png" alt="Lobster" class="card-img">
-                            <h3 class="card-name">Lobster</h3>
-                            <button class="card-btn">Order Now</button>
-                        </div>
-                    </card>
-    
-                </section>
-    
-            <!--End Section 2-->
+					<div class="card">
+						<img src="images/card-img-3.png" alt="Lobster" class="card-img" />
+						<h3 class="card-name">Lobster</h3>
+						<button class="card-btn">Order Now</button>
+					</div>
+				</card>
+			</section>
 
-</div>
+			<!--End Section 2-->
+		</div>
 
-    <script src="scripts.js"></script>
-</body>
+		<script src="scripts.js"></script>
+	</body>
 </html>
