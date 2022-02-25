@@ -66,3 +66,8 @@ html {
     transition: color 0.3s, opacity 0.2s;
     
 }
+
+
+.change-selector .navbar-link {
+    opacity: 1;
+}
