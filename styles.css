@@ -100,3 +100,7 @@ html {
 .navbar-link:hover {
     color: #fff;
 }
+
+.navbar-link i {
+    font-size: 7rem;
+}
