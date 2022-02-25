@@ -48,3 +48,21 @@ html {
     transition: top 0.4s;
 
 }
+
+.navbar.change-selector {
+    top: 0;
+    transition: top 0.4s 0.2s;
+}
+
+
+.navbar-link {
+    color: #aaa;
+    margin: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: color 0.3s, opacity 0.2s;
+    
+}
