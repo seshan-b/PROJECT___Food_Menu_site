@@ -91,3 +91,8 @@ html {
     transition: opacity 0.4s 0.8s,
     color 0.3s;
 }
+
+.change-selector .navbar-link:nth-child(5){
+    transition: opacity 0.4s 0.9s,
+    color 0.3s;
+}
