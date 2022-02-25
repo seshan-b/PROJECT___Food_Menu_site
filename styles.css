@@ -96,3 +96,7 @@ html {
     transition: opacity 0.4s 0.9s,
     color 0.3s;
 }
+
+.navbar-link:hover {
+    color: #fff;
+}
