@@ -111,3 +111,19 @@ html {
     letter-spacing: 0.5rem;
     margin-top: 0.5rem;
 }
+
+.menu {
+    width: 4rem;
+    height: 6rem;
+    background-color: #000;
+    position: fixed;
+    top: 3rem;
+    left: 5rem;
+    border-radius: 30rem 30rem 15rem 15rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #000,
+    -0.1rem 0.1rem 0 0.1rem #000;
+    cursor: grab;
+    z-index: 100;
+    transition: top 0.4s 0.2s;
+
+}
