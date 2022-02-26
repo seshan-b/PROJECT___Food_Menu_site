@@ -104,3 +104,10 @@ html {
 .navbar-link i {
     font-size: 7rem;
 }
+
+.navbar-link span {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    margin-top: 0.5rem;
+}
