@@ -127,3 +127,7 @@ html {
     transition: top 0.4s 0.2s;
 
 }
+.menu.change-selector {
+    top: 18em;
+    transition: top 0.4s;
+}
