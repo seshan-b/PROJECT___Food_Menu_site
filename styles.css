@@ -232,3 +232,16 @@ html {
 .card-img {
     width: 100%;
 }
+
+
+
+.card-name {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #111;
+    margin : 2rem 0;
+    text-shadow: 0.15rem 0.15rem 0.15rem #000;
+
+}
