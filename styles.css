@@ -245,3 +245,21 @@ html {
     text-shadow: 0.15rem 0.15rem 0.15rem #000;
 
 }
+
+
+.card-btn {
+    width: 70%;
+    background-color: #111;
+    color: #888;
+    border-radius: 5rem;
+    font-size: 1;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    border: none;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    box-shadow:  -0.2rem -0.2rem -0.2rem #000;
+
+
+}
