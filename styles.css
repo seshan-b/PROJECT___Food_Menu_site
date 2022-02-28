@@ -179,3 +179,17 @@ html {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* Vertical line Shadow */
+.card::before {
+    content: "";
+    height: 100%;
+    width: 1rem;
+    background-color: #817824;
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    transform: skewY(45deg);
+    transform-origin: right;
+
+}
