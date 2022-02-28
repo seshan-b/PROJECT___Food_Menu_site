@@ -173,3 +173,9 @@ html {
     justify-content: space-between;
     padding: 10rem 0;
 }
+
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
