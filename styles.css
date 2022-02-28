@@ -207,3 +207,17 @@ html {
     transform-origin: bottom;
 
 }
+
+.card {
+    width: 30rem;
+    background-color: #a79a2d;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1rem 1rem 1rem #000;
+    position: relative;
+    transform: rotateY(20deg) rotateX(20) skewX(-2deg) skewY(-2deg) ;
+    transition: transform 0.5s, box-shadow 0.5;
+}
