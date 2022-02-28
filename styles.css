@@ -221,3 +221,9 @@ html {
     transform: rotateY(20deg) rotateX(20) skewX(-2deg) skewY(-2deg) ;
     transition: transform 0.5s, box-shadow 0.5;
 }
+
+
+.card:hover {
+    transform: rotateY(-20deg) skewX(-2deg) skewY(-2deg) translateY(-5rem);
+    box-shadow: 5rem 5rem 5rem #000;
+}
