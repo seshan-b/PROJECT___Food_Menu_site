@@ -193,3 +193,17 @@ html {
     transform-origin: right;
 
 }
+
+/* Horizontal line Shadow */
+.card::after {
+    content: "";
+    height: 1rem;
+    width: 100%;
+    background-color: #8f8317;
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    transform: skewX(45deg);
+    transform-origin: bottom;
+
+}
