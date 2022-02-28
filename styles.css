@@ -227,3 +227,8 @@ html {
     transform: rotateY(-20deg) skewX(-2deg) skewY(-2deg) translateY(-5rem);
     box-shadow: 5rem 5rem 5rem #000;
 }
+
+
+.card-img {
+    width: 100%;
+}
