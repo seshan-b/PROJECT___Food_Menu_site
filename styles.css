@@ -260,3 +260,8 @@ html {
     background-color: #333;
     padding: 5rem 0;
 }
+
+.gallery-link {
+    position: relative;
+    margin: 4rem 1rem;
+}
