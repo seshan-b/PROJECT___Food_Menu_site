@@ -278,3 +278,8 @@ html {
     transition: height 0.5s;
     z-index: 10;
 }
+
+
+.gallery-link:hover::before {
+    height: 80%;
+}
