@@ -283,3 +283,17 @@ html {
 .gallery-link:hover::before {
     height: 80%;
 }
+
+/* Vertical line */
+.gallery-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0.2rem;
+    top: 30%;
+    left: 2rem;
+    background-color: #fff;
+    transition: width 0.5s;
+    z-index: 10;
+    
+}
