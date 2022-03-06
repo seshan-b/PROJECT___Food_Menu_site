@@ -254,7 +254,6 @@ html {
 
 /* Section 3 */
 
-
 .section-3
 {
     background-color: #333;
@@ -363,3 +362,14 @@ html {
     visibility: hidden;
     transition: opacity 0.3s;
 }
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* End Section 3 */
