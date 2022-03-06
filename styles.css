@@ -330,4 +330,16 @@ html {
 
 
 
+.food-name {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s;
 
+}
