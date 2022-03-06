@@ -343,3 +343,8 @@ html {
     transition: width 0.3s;
 
 }
+
+.gallery-link:hover .food-name {
+    width: 100%;
+    transition: width 1.5s 0.5s;
+}
