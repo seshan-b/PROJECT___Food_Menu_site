@@ -254,6 +254,7 @@ html {
 
 /* Section 3 */
 
+
 .section-3
 {
     background-color: #333;
@@ -277,8 +278,6 @@ html {
     transition: height 0.5s;
     z-index: 10;
 }
-
-
 .gallery-link:hover::before {
     height: 80%;
 }
@@ -296,10 +295,10 @@ html {
     z-index: 10;
     
 }
-
 .gallery-link:hover::after {
     width: 90%;
 }
+
 
 
 .food-img 
@@ -315,7 +314,6 @@ html {
 
 }
 
-
 .gallery-link:hover .food-img {
     box-shadow: 1rem 1rem 0.1rem #e92929,
     2rem 2rem 0.1rem #a2e946,
@@ -325,9 +323,6 @@ html {
     opacity: 0.3;
     transform: scale(1.1);
 }
-
-
-
 
 .food-name {
     position: absolute;
@@ -343,10 +338,12 @@ html {
 
 }
 
+
 .gallery-link:hover .food-name {
     width: 100%;
     transition: width 1.5s 0.5s;
 }
+
 
 .food-description {
     position: absolute;
@@ -363,13 +360,22 @@ html {
     transition: opacity 0.3s;
 }
 
+.gallery-link:hover .food-description {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s 1s;
+}
+
+
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-
+    margin-top: 10rem;
 }
+
+
 
 /* End Section 3 */
