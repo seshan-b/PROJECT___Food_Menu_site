@@ -410,4 +410,6 @@ html {
     color: #a79a2d
 }
 
-
+.signup-form-input::placeholder {
+    color: #a79a2d;
+}
