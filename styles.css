@@ -457,6 +457,10 @@ html {
     letter-spacing: 0.1rem;
     transition: color 0.3s;
 }
+.footer-nav a:hover {
+    color: #862323;
+    cursor: pointer;
+}
 
 
 
