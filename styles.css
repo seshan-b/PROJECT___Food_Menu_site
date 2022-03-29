@@ -462,5 +462,10 @@ html {
     cursor: pointer;
 }
 
+.copyright {
+    font-size: 2rem;
+    color: #ddd;
+
+}
 
 
