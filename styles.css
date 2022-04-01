@@ -617,3 +617,24 @@ html {
 
 
 }
+
+
+@media(max-width: 320px)
+{
+    html {
+        font-size: 30%;
+    }
+
+    .navbar-link i {
+        font-size: 3rem;
+    }
+
+    .navbar-link span {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        left: 0.5rem;
+    }   
+
+}
