@@ -514,3 +514,32 @@ html {
 /* End Section 4 */
 
 /* Responsive Design */
+
+@media(max-width: 1400px)
+{
+    html {
+        font-size: 50%;
+    }
+
+    .section-2 {
+        height: auto;
+        padding: 10rem 0 12rem 0;
+    }
+
+    .card-container {
+        margin-top: 10rem;
+
+    }
+
+    .gallery-link {
+        width: 40rem;
+        height: 25rem;
+        margin: 5rem
+    }
+
+    .food-img {
+        width: 100%;
+        height: 100%;
+
+    }
+}
