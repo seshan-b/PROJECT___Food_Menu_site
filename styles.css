@@ -543,3 +543,28 @@ html {
 
     }
 }
+
+@media(max-width: 1000px) {
+    
+    .section-heading {
+        font-size: 8rem;
+        margin: 0 5rem;
+
+    }
+
+    .section-1-icons i {
+        font-size: 25rem;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        margin: 5rem;
+    }
+
+    .section-4 {
+        height: 30rem;
+    }
+}
