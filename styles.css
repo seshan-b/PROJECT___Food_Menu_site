@@ -585,3 +585,35 @@ html {
         font-size: 2rem;
     }
 }
+
+
+
+@media(max-width: 700px) {
+
+	.section-heading {
+		font-size: 7rem;
+		margin: 0 10rem;
+	}
+
+	.section-1-icons i {
+		font-size: 20rem;
+	}
+
+	.menu {
+		left: 2rem;
+	}
+
+	.section-4 {
+		height: 40rem;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+
+	}
+
+	.section-4-text {
+		margin-bottom: 7rem;
+	}
+
+
+}
