@@ -5,3 +5,6 @@ document.querySelector('.menu').addEventListener('click', () => {
 	})
 })
 /* End Navbar */
+
+
+/* Section 1 */
