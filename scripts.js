@@ -13,7 +13,9 @@ const allIcons = document.querySelectorAll('.section-1-icons i')
 
 let iconCounter = 1;
 
+setInterval(() => {
 
+}, 4000)
 
 
 /* End Section 1 */
