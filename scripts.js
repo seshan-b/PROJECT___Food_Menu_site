@@ -9,3 +9,5 @@ document.querySelector('.menu').addEventListener('click', () => {
 /* Section 1 */
 
 const allIcons = document.querySelectorAll('.section-1-icons i')
+
+let iconCounter = 1;
