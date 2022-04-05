@@ -6,7 +6,6 @@ document.querySelector('.menu').addEventListener('click', () => {
 })
 /* End Navbar */
 
-
 /* Section 1 */
 
-const allIcons = document.querySelectorAll(".section-1-icons i");
+const allIcons = document.querySelectorAll('.section-1-icons i')
