@@ -16,6 +16,8 @@ let iconCounter = 1;
 setInterval(() => {
 	iconCounter ++;
 
+	const eachIcon = document.querySelector(".section-1-icons .change");
+
 }, 4000)
 
 
