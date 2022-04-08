@@ -11,14 +11,12 @@ document.querySelector('.menu').addEventListener('click', () => {
 // Get icon
 const allIcons = document.querySelectorAll('.section-1-icons i')
 
-let iconCounter = 1;
+let iconCounter = 1
 
 setInterval(() => {
-	iconCounter ++;
+	iconCounter++
 
-	const eachIcon = document.querySelector(".section-1-icons .change");
-
+	const eachIcon = document.querySelector('.section-1-icons .change')
 }, 4000)
-
 
 /* End Section 1 */
