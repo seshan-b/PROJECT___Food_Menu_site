@@ -16,6 +16,11 @@ let iconCounter = 1
 setInterval(() => {
 	iconCounter++
 
+	if (iconCounter > allIcons.length)
+    {
+
+    }
+
 	const eachIcon = document.querySelector('.section-1-icons .change')
 }, 4000)
 
