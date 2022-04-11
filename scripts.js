@@ -18,7 +18,8 @@ setInterval(() => {
 
 	if (iconCounter > allIcons.length)
     {
-
+		allIcons[0].classList.add("change");
+		iconCounter = 1
     }
 
 	const eachIcon = document.querySelector('.section-1-icons .change')
