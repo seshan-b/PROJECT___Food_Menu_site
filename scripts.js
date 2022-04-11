@@ -20,7 +20,7 @@ setInterval(() => {
 		allIcons[0].classList.add('change')
 		iconCounter = 1
 	} else {
-		
+		eachIcon.nextElementSibling.classList.add('change')
 	}
 
 	const eachIcon = document.querySelector('.section-1-icons .change')
