@@ -16,11 +16,12 @@ let iconCounter = 1
 setInterval(() => {
 	iconCounter++
 
-	if (iconCounter > allIcons.length)
-    {
-		allIcons[0].classList.add("change");
+	if (iconCounter > allIcons.length) {
+		allIcons[0].classList.add('change')
 		iconCounter = 1
-    }
+	} else {
+		
+	}
 
 	const eachIcon = document.querySelector('.section-1-icons .change')
 }, 4000)
